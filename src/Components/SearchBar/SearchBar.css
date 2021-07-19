@@ -1,0 +1,33 @@
+.SearchBar__inputWrapper {
+  display: flex;
+  width: 100%;
+}
+
+.SearchBar__inputWrapper input {
+  flex-grow: 1;
+  font-size: 24px;
+  padding: 12px 8px;
+  border-width: medium;
+  border-color: #ff9e22;
+  border-style: solid;
+  border-top-left-radius: 12px;
+  border-bottom-left-radius: 12px;
+  border-right: 0;
+  width: 100%;
+}
+
+.SearchBar__inputWrapper button {
+  border-left: 0;
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.SearchBar__emptySearchMessage {
+  margin-top: 8px;
+  flex-basis: 100%;
+  display: flex;
+  font-weight: 600;
+  font-size: 18px;
+  padding-left: 8px;
+  color: #ff3022;
+}
